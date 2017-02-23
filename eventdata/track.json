@@ -52,9 +52,9 @@
       },
       "schedule": [
         {
-          "operation": "index-append-1000",
+          "operation": "index-append-5000",
           "warmup-time-period": 0,
-          "time-period": 1200,
+          "time-period": 300,
           "clients": {{ clients }}
         }
       ]
